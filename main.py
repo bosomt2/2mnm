@@ -12,6 +12,7 @@ while attempts < attempt_limit:
     guess = int(guess_text)
     if mm_count == guess:
         print(f"ano! bolo to {guess}")
+        break
     elif guess < mm_count:
         print("malo")
     else:
@@ -19,4 +20,4 @@ while attempts < attempt_limit:
     attempts += 1
 
 print("bye")
-print(mm_count)
+print(f"bolo to {mm_count}")
