@@ -1,6 +1,6 @@
 import random
 
-mm_count = 5  # random.randint(1,100)
+mm_count = random.randint(1,100)
 
 attempt_limit = 5
 attempts = 0
